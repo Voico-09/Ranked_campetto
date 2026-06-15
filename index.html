@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Rankings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<header>
+    <h1>🏆 SIGMA RANKINGS 🏆</h1>
+    <p>I migliori di sempre of lampertico</p>
+</header>
+
+<div class="ranking">
+
+    <div class="player gold"
+         onclick="showPlayer('Longhi','Jobless fino al ultimo, pur avendo un lavoro sto ragazzo continua a rimanere un disoccupato','imagines/PietroB.jpeg')">
+        <div class="position">#1 👑</div>
+        <img src="imagines/PietroA.jpeg">
+        <div class="name">Longhi</div>
+    </div>
+
+    <div class="player silver"
+         onclick="showPlayer('Giova','Il vero king di milano, domina tutte le etnie nere','imagines/GiovaB.jpeg')">
+        <div class="position">#2 🥈</div>
+        <img src="imagines/GiovaA.jpeg">
+        <div class="name">Giova</div>
+    </div>
+
+    <div class="player bronze"
+         onclick="showPlayer('Fontana','Il misterioso dribbler del parchetto, ogni suo muovimento è inaspettato','imagines/FonB.jpeg')">
+        <div class="position">#3 🥉</div>
+        <img src="imagines/FonA.jpeg">
+        <div class="name">Fontana</div>
+    </div>
+
+    <div class="player fourth"
+         onclick="showPlayer('Jera','Il  meme guy del parchetto, ogni partita dipende dal suo umore','imagines/SimoB.jpeg')">
+        <div class="position">#4</div>
+        <img src="imagines/SimoA.jpeg">
+        <div class="name">Jera</div>
+    </div>
+
+    <div class="player fifth"
+         onclick="showPlayer('Voico','Player molto versatile, può fare sia l attaccante d elite e anche il difensore','imagines/VoicoB.jpeg')">
+        <div class="position">#5</div>
+        <img src="imagines/VoicoA.jpeg">
+        <div class="name">Voico</div>
+    </div>
+
+    <div class="player sixth"
+         onclick="showPlayer('Juba','Difensore d elite, twin di Voico','imagines/JubaB.jpeg')">
+        <div class="position">#6</div>
+        <img src="imagines/JubaA.jpeg">
+        <div class="name">Juba</div>
+    </div>
+
+    <div class="player seventh"
+         onclick="showPlayer('Lappo','Linux user, aura farmer e domina Mallino','imagines/LappoB.jpeg')">
+        <div class="position">#7</div>
+        <img src="imagines/LappoA.jpeg">
+        <div class="name">Lappo</div>
+    </div>
+
+</div>
+
+<!-- POPUP -->
+
+<div id="popup">
+
+    <div class="popup-box">
+
+        <span class="close" onclick="closePopup()">✖</span>
+
+        <h2 id="popupName"></h2>
+
+        <div class="info">
+
+            <img id="popupImage">
+
+            <p id="popupDescription"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
